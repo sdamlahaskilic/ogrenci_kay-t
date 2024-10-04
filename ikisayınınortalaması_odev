@@ -1,0 +1,19 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        // Ilk sayiyi sorar
+        Console.WriteLine ("Ilk sayiyi giriniz:");
+        string sayi1 = Console.ReadLine();
+        
+        // Ikinci sayiyi sorar
+        Console.WriteLine ("Ikinci sayiyi giriniz:");
+        string sayi2 = Console.ReadLine();
+        
+        // Girilen iki sayinin ortalamasini alir ve konsola cevabi yazar
+        int sonuc = (Convert.ToInt32(sayi1) + Convert.ToInt32(sayi2)) / 2;
+        Console.WriteLine(sonuc);
+    }
+}
