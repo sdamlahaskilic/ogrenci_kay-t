@@ -1,0 +1,24 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        // Kullaniciya isim soyisim sorar
+        Console.WriteLine ("Ad ve Soyad girin:");
+        string ad_soyad = Console.ReadLine();
+        
+        // Kullaniciya ogrenci numarasini sorar
+        Console.WriteLine ("Ogrenci no girin:");
+        string ogrenci_no = Console.ReadLine();
+        
+        // Kullaniciya isim telefon numarasi sorar
+        Console.WriteLine ("Telefon numarasi girin:");
+        string tel_no = Console.ReadLine();
+        
+        // Girilen bilgileri konsola duzenliyip yazar
+        Console.WriteLine ("Ad Soyad: " + ad_soyad);
+        Console.WriteLine ("Ogrenci numarasi: " + ogrenci_no);
+        Console.WriteLine ("Telefon numarasi: " + tel_no);
+    }
+}
